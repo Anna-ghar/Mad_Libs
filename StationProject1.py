@@ -60,7 +60,7 @@ elif template == 2:
      {Body_part2}. I heard that all doctors {Verb2} {Noun4} every day for breakfast. The most {Adjective3} thing about
       being in the hospital is the {SillyWord} {Noun5} !'''
 
-    
     print(mad_libs)
+    
 else:
     print("Invalid template choice. Please choose 1 or 2.")
