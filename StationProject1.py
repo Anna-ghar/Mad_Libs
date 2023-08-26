@@ -24,7 +24,7 @@ if template == 1:
     Noun2 = random.choice(nouns)
     
 
-    mad_libs = '''This weekend I am going camping with {PersonName}. I packed my lantern, sleeping bag, and {Noun}.
+    mad_libs = f'''This weekend I am going camping with {PersonName}. I packed my lantern, sleeping bag, and {Noun}.
     I am so {Adjective1} to {Verb1} in a tent. I am {Adjective2} we might see a(n) {Animal1}, I hear they are kind of
     dangerous. While we are camping, we are going to hike, fish, and {Verb2}. I have heard that the {Color1} lake is
     great for {Verb3}. Then we will {Adverb} hike through the forest for {Number1} {Time}. If I see a {Color2}
