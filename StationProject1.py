@@ -22,6 +22,7 @@ if template == 1:
     Number2 = input("Input a number: ")
     SillyWord = input("Input a silly word: ")
     Noun2 = random.choice(nouns)
+    
 
     mad_libs = '''This weekend I am going camping with {PersonName}. I packed my lantern, sleeping bag, and {Noun}.
     I am so {Adjective1} to {Verb1} in a tent. I am {Adjective2} we might see a(n) {Animal1}, I hear they are kind of
@@ -59,6 +60,7 @@ elif template == 2:
      {Body_part2}. I heard that all doctors {Verb2} {Noun4} every day for breakfast. The most {Adjective3} thing about
       being in the hospital is the {SillyWord} {Noun5} !'''
 
+    
     print(mad_libs)
 else:
     print("Invalid template choice. Please choose 1 or 2.")
